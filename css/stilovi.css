@@ -1,0 +1,226 @@
+/*Vezano za sve stranice sajta*/
+
+body{
+    background-color:#000;
+    font-family: Calibri;
+    font-size:12px;
+    width:1050px;
+    margin:auto;
+    background-image: url(../slike/background.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+}
+.header {
+	width: 100%;
+	height: 150px;
+	background-color: #300;
+	margin-top: 0;
+	padding: 0;
+	position: relative;
+	background-image: url(../slike/baner1.jpg);
+}
+#drmr{
+	text-align: right;
+	opacity: 0.8;
+}
+#drmr img:hover{
+ 	width: 45px;
+    height: 45px;
+}
+#navigacija {
+	height: 50px;
+	width: auto;
+}
+.navMember{
+	position: relative;
+	width: 20%;
+	height: 100%;
+	background-color: #000;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	opacity: 1;
+	float: left;
+}
+.navMember:hover{
+	background-color:#FF7640;
+	text-shadow:3px 3px 5px black;
+	opacity: 0.8;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+/*----------POCETNA STRANA----------*/
+#levaKolona {
+	margin-top:10px;
+	margin-bottom:15px;
+	width: 74%;
+	height: 670px;
+	/*background-color: #00F;*/
+	float: left;
+}
+.naslov{
+	font-size:20px;
+	background-color:#666;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:100%;
+	height:25px;
+	font-weight:bold;
+	opacity: 0.6;
+	color: #FFF;
+	text-shadow:2px 2px 3px black;
+	border-radius: 5px;
+}
+.tekst{
+	font-size:16px;
+	color:#FFF;
+	padding:2px;
+	text-align:justify;
+}
+#desnaKolona{
+	float:right;
+	margin-top:10px;
+	margin-bottom:15px;
+	width: 25%;
+	height: 670px;
+	/*background-color:#FF0;*/
+}
+.desnoSlike img{
+	width:100%;
+	height:200px;
+	margin-top:15px;
+	margin-bottom:10px;
+	border-radius: 10px;
+}
+.footer {
+	clear:both;
+	background-color:#333;
+	width: auto;
+	height:45px;
+	text-align: center;
+	opacity: 0.9;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.copyright{
+	text-align:center;
+	color: #FFF;
+}
+/*----------GALERIJA----------*/
+#telo{
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:15px;
+	width: 100%;
+	height: 1800px;
+	/*background-color: #00F;*/
+}
+
+/*----------Rezervacije----------*/
+.cekbokspretraga{
+    width:14px;
+}
+.cekbokspretraga:hover{
+    border:none;
+    box-shadow: none;
+}
+.cekbokspretraga:focus{
+    border:none;
+    box-shadow: none;
+}
+input,select,textarea{
+    border:none;
+    font-size:16px;
+    border-radius:3px;
+    font-family:Calibri;
+    outline:0;
+    width:180px;
+}
+textarea{
+    resize:vertical;
+}
+table{
+    width:300px;
+    margin:0 auto 10px auto;
+    position:relative;
+    top:20px;
+    background-color:#666;
+    /*border: 2px solid black;*/
+    padding:10px;
+    opacity:0.9;
+    webkit-box-shadow: 4px 3px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    4px 3px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         4px 3px 5px 0px rgba(50, 50, 50, 0.75);
+}
+table tr td:first-child{
+    text-align:left;
+    font-size:16px;
+    font-family:Calibri;
+    color:black;
+}
+input:hover,select:hover,textarea:hover{
+    box-shadow:0px 0px 5px black;
+}
+input:focus,select:focus,textarea:focus{
+    box-shadow:0px 0px 5px #07C3E8;
+    /*border-color:#86E867;*/
+}
+.tabelaponuda{
+    margin:0 auto 20px auto;
+    position:relative;
+}
+.tabelaponuda>table{
+    width:1050px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    opacity: 0.9;
+}
+.tabelaponuda td,tr{
+    border: 1px solid black;
+}
+.tabelaponuda thead tr:first-child{
+    font-size: 25px;
+}
+.tabelaponuda thead tr{
+    border: none;
+    background-color: #FF4900;
+}
+.tabelaponuda tbody tr:first-child{
+    font-weight: bold;
+    background-color: #FF9B73;
+}
+.tabelaponuda tbody{
+    background-color: white;
+}
+button {
+    position: relative;
+    padding: 5px;
+    width: 120px;
+    border-radius: 3px;
+    border: none;
+    height: 30px;
+    transition: all 700ms ease-in-out;
+    transition-delay: initial;
+	box-shadow: 4px 3px 5px 0px rgba(50, 50, 50, 0.75);
+    float: right;
+}
+button:hover {
+    background-color: #09C;
+    border: none;
+    transition: 700ms;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 699px) and (min-width: 520px) {
+	
+}
